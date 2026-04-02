@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk -F, 'NR>=185 && NR<=230' \"D:/documents/UalbertaCourses/ECE_541/project/claude/runs/2026-03-30_11-21-50/pipeline_log.csv\")",
+      "Bash(python3:*)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/moein/AppData/Local/Programs/Python//**)",
+      "Bash(/c/Users/moein/AppData/Local/Programs/Python/Python313/python -c \"\nwith open\\(r'C:/Users/moein/.claude/plans/peppy-questing-dongarra-agent-a0001d3ade1ea0b7b.md', 'w'\\) as f:\n    f.write\\('# Plan written via python\\\\n'\\)\nprint\\('ok'\\)\n\")",
+      "Bash(awk -F',' 'NR>=184 && NR<=220' \"D:/documents/UalbertaCourses/ECE_541/project/claude/runs/2026-03-30_22-11-10/pipeline_log.csv\")",
+      "Bash(awk:*)",
+      "Skill(update-config)",
+      "Bash(jq:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)"
+    ]
+  }
+}
