@@ -80,7 +80,7 @@ The pipeline struggles with:
 ## Running
 
 ```matlab
-cd D:\documents\UalbertaCourses\ECE_541\project\claude
+cd <project directory>
 main_pipeline   % runs everything, outputs to runs/<timestamp>/
 ```
 
